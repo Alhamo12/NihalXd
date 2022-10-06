@@ -7,10 +7,10 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "16157631"))
+API_HASH = getenv("API_HASH", "4c585632f990d84ac0bf7e881f49ebeb")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "2064405785:AAG0wsqY8ezmv_Pxufj2wNEd2bfktQpqxp0")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
@@ -22,12 +22,12 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001825499105"))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ɴɪʜᴀʟ ダ ᴍᴜsɪᴄ​")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1356469075").split())
+    map(int, getenv("OWNER_ID", "926151330").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -36,7 +36,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/AnonymousR1025/AnonXMusic",
+    "https://github.com/SELENEBOTSTG/NihalMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -85,7 +85,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BAC4qFVg_Q4AQBbjP-_ewVTsTCFQvZUJqDQEYlRFCUSSLddMqux-0xETKrD0vQqun_BCvhr-cxftMuIuSitM7iqi7kKqqSkGFJU3PKAcBcsKUZKAhUOFHWVKEpbtwxaoUEJ6puvu3EAMpHA3FuNOOjV_z18wvZxJj8Pnx7YIzVbYlpyRtUWxgklLK49pMVuCVx7cFnsJtt6lOjcVBxO8dfTmmDKuAM3Z3BObSFxPs00_1ChDx9lDpQeD0ie0eOWGXOz9E8r8jfdDw4i8Sr7UG2HWu5dDhSkuiHa1ichATwQko6CXeaj7Lsnv4uJcy2eDMXZJU6dLJ0_6N_cGgLstE8FLAAAAAU8AkF0A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)

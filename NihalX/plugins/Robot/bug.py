@@ -13,7 +13,7 @@ from config import (
     OWNER_ID as owner_id,
 )
 
-SUPPORT = "REDOXMOD"
+SUPPORT = "MrNihalLogs"
 
 def content(msg: Message) -> [None, str]:
     text_to_return = msg.text

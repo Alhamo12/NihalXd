@@ -10,12 +10,12 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "16157631"))
 API_HASH = getenv("API_HASH", "4c585632f990d84ac0bf7e881f49ebeb")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "2064405785:AAG0wsqY8ezmv_Pxufj2wNEd2bfktQpqxp0")
+BOT_TOKEN = getenv("BOT_TOKEN", "2064405785:AAH4PeUnewIgtqWLD5CTHsvwdajXG65a9GU")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "90")
+    getenv("DURATION_LIMIT", "180")
 )
 
 SONG_DOWNLOAD_DURATION = int(
@@ -36,7 +36,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/SELENEBOTSTG/NihalMusic",
+    "https://github.com/Nihal946/NihalXd",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -85,7 +85,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BAC4qFVg_Q4AQBbjP-_ewVTsTCFQvZUJqDQEYlRFCUSSLddMqux-0xETKrD0vQqun_BCvhr-cxftMuIuSitM7iqi7kKqqSkGFJU3PKAcBcsKUZKAhUOFHWVKEpbtwxaoUEJ6puvu3EAMpHA3FuNOOjV_z18wvZxJj8Pnx7YIzVbYlpyRtUWxgklLK49pMVuCVx7cFnsJtt6lOjcVBxO8dfTmmDKuAM3Z3BObSFxPs00_1ChDx9lDpQeD0ie0eOWGXOz9E8r8jfdDw4i8Sr7UG2HWu5dDhSkuiHa1ichATwQko6CXeaj7Lsnv4uJcy2eDMXZJU6dLJ0_6N_cGgLstE8FLAAAAAU8AkF0A")
+STRING1 = getenv("STRING_SESSION", "BACnmEpCKZRtDkntjCVxVFfTyBGA0pqVE_lBaqviGzSmtm1lCNwmggMiDg_0uFvPXVe2cn-WXaGzqHo4-U_BS4dlnItQ3g7kIQGFEHG73PZ9KlesT32R4tY1ZZkg1XgDxTrbGk83DdL0YNz4o5bza5GcApW-HWko5YgdSuoWRvkjB3Ox-UKWMm4poytp4VNN2sIfOlWut-gR3mVKWcTUt414v2eGDXb2HfNb8NFECsl6aGvKB1s19c3k4879jHi64P6PvNg534RC_DDwEsbGjpMCqwBcv8SW8_z_g_fz_ZxOYkOJkUX4FVIo-rm-HVQv4QjyJSSZ0z14DzF3FAV5KUxBAAAAAU8AkF0A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
